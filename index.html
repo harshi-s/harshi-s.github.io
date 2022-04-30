@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Turismo reponsive website build using HTML5, CSS3 and Javascript.
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="stylesheet" href="font/stylesheet.css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+    <title>TRAVELLER </title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="navigation">
+          <div class="logo">Traveller</div>
+          <img
+            src="img/nav-icon.svg"
+            class="nav-icon"
+            alt="navigation icon"
+            width="30"
+            height="30"
+          />
+          <ul>
+            <li>
+              <a href="#home"> Home </a>
+            </li>
+            <li>
+              <a href="#tours"> Tours </a>
+            </li>
+            <li>
+              <a href="#offers"> Offers </a>
+            </li>
+            <li>
+              <button class="btn">Book Now</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="section-hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="heading heading--1 margin-bottom">
+              life is short and world is wide 
+            </h1>
+            <button class="btn">Explore now</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-search">
+        <div class="container search-box">
+          <div class="wrapper">
+            <h3>Destination</h3>
+            <div class="custom-select">
+              <select>
+                <option value="england">England</option>
+                <option value="france">France</option>
+                <option value="italy">Italy</option>
+                <option value="india">India</option>
+                <option value="india">Spain</option>
+                <option value="maldives">Maldives</option>
+              </select>
+              <span class="arrow"></span>
+            </div>
+          </div>
+
+          <div class="wrapper">
+            <h3>Date</h3>
+            <div class="custom-date">
+              <input type="date" id="date" />
+              <img src="./img/calendar.svg" alt="" class="calender-icon" />
+            </div>
+          </div>
+
+          <div class="wrapper">
+            <h3>Average Price</h3>
+            <div class="custom-select">
+              <select>
+                <option value="2L">2L - 5L</option>
+                <option value="5L">5L - 10L</option>
+                <option value="10L">10L - 20L</option>
+              </select>
+              <span class="arrow"></span>
+            </div>
+          </div>
+          <button class="btn">Search</button>
+        </div>
+      </section>
+
+  
+      <section class="section-tours" id="tours">
+        <div class="container tour-box" data-aos="fade-up">
+          <header class="tour-box__heading">
+            <h2 class="heading heading--2 color-blue margin-bottom">
+              our top tours
+            </h2>
+            <p>
+              We provide you with the best offers so that you travel the world in affordable prices
+            </p>
+          </header>
+
+          <article class="tour-box__cards">
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/england.jpg"
+                alt="england"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">ENGLAND</h3>
+                  <p class="price"> <b>5L</b></p>
+                </div>
+
+                <div class="t-card__items">
+                  <div class="days">5 Days</div>
+                 
+                </div>
+              </div>
+            </div>
+
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/france.jpg"
+                alt="france"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">FRANCE</h3>
+                  <p class="price"> <b>5.5L</b></p>
+                </div>
+
+                <div class="t-card__items">
+                  <div class="days">6 Days</div>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/itally.jpg"
+                alt="ITALY"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">ITALY</h3>
+                  <p class="price"> <b>4L</b></p>
+                </div>
+
+
+                <div class="t-card__items">
+                  <div class="days">3 Days</div>
+                 
+                </div>
+              </div>
+            </div>
+
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/india.jpg"
+                alt="india"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">INDIA</h3>
+                  <p class="price"><b>6L</b></p>
+                </div>
+                <div class="t-card__items">
+                  <div class="days">7 Days</div>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/spain.jpg"
+                alt="spain"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">SPAIN</h3>
+                  <p class="price"> <b>4.5L</b></p>
+                </div>
+
+
+                <div class="t-card__items">
+                  <div class="days">6 Days</div>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/maldives.jpg"
+                alt="maldives"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">MALDIVES</h3>
+                  <p class="price"><b>3L</b></p>
+                </div>
+                <div class="t-card__items">
+                  <div class="days">2 Days</div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+   
+      <section class="section-offer" id="offers">
+        <div class="container offer-box">
+          <div class="offer-box__percentage" data-aos="zoom-in">50%</div>
+          <div class="offer-box__content" data-aos="fade-up">
+            <h2 class="heading heading--2">
+              Special Offer this month on our premium tours Rs.3L Regular Rs.6L
+            </h2>
+            <p>
+              Early bird offers
+            </p>
+            <button class="btn">book Now</button>
+          </div>
+        </div>
+      </section>
+    <footer class="section-footer">
+      <div class="footer-box container">
+        <div class="contact-details">
+          <h2 class="heading heading--2 margin-bottom">Tourism</h2>
+          <ul class="contact-data">
+            <li class="location">90 Indira Gandhi Road New Delhi</li>
+            <li class="phone">+91 0000000000</li>
+            <li class="email">Tourists12@ac.in</li>
+            <li class="social">
+              <img
+                src="./img/logo-whatsapp.svg"
+                alt="whatsapp icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-facebook.svg"
+                alt="facebook icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-instagram.svg"
+                alt="instagram icon"
+                width="35"
+                height="35"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <nav class="footer-nav" aria-label="navigation">
+          <div class="nav-name">Quick Links</div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tours">Tours</a></li>
+            <li><a href="#offers">Offers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
+
